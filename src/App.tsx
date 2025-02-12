@@ -1,17 +1,10 @@
-// import { useState } from 'react'
+import AppRoute from './routes/AppRoute'
 
-import './App.css'
-import { Button } from './components/ui/button'
-
-function App() {
-  // const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-    <h1 className='font-extrabold'>React APP</h1>
-    <Button>Click Me</Button>
-    </>
+    <div>
+      <AppRoute/>
+    </div>
   )
 }
 
-export default App
