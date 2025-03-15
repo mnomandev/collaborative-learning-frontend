@@ -1,8 +1,6 @@
-import Header from "../components/layout/Header";  
 import { Box, Heading, Text, Button, Flex, Image, VStack } from "@chakra-ui/react";
 import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import Footer from "@/components/layout/Footer";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
